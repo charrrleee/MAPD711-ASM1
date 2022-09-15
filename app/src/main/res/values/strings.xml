@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">Assignment1</string>
+    <string name="app_name">MAPD711 Assignment1</string>
+
+    <string name="tv_form_name">Student Input Form:</string>
+    <string name="tv_profile_name">Student Profile:</string>
+
+    <string name="tv_name">Your Name:  </string>
+    <string name="tv_address">Your Address:   </string>
+    <string name="tv_profession">Your Profession:   </string>
+    <string name="tv_dream_job">Your Dream Job:   </string>
+    <string name="tv_favourite_food">Favourite Food:   </string>
+
+    <string name="et_name">Type Your Name</string>
+    <string name="et_address">Type Your Address</string>
+    <string name="et_profession">Past or current Job</string>
+    <string name="et_dream_job">Type here</string>
+    <string name="et_favourite_food">Type here</string>
+
+    <string name="btn_submit">Submit</string>
+
+    <string name="tv_name_label">Name:   </string>
+    <string name="tv_address_label">Address:   </string>
+    <string name="tv_profession_label">Profession:   </string>
+    <string name="tv_dream_job_label">Dream Job:   </string>
+    <string name="tv_favourite_food_label">Food:   </string>
+
+
 </resources>
