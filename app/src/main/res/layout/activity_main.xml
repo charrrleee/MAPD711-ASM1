@@ -43,18 +43,14 @@
             android:id="@+id/tv_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tv_address"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_name" />
+            android:text="@string/tv_address"/>
 
 
         <EditText
             android:id="@+id/et_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/et_address"
-            app:layout_constraintStart_toEndOf="@+id/tv_address"
-            app:layout_constraintTop_toBottomOf="@id/tv_name" />
+            android:hint="@string/et_address" />
     </LinearLayout>
 
     <LinearLayout
@@ -66,18 +62,14 @@
             android:id="@+id/tv_profession"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tv_profession"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_address" />
+            android:text="@string/tv_profession"/>
 
 
         <EditText
             android:id="@+id/et_profession"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/et_profession"
-            app:layout_constraintStart_toEndOf="@+id/tv_profession"
-            app:layout_constraintTop_toBottomOf="@id/tv_address" />
+            android:hint="@string/et_profession" />
     </LinearLayout>
 
     <LinearLayout
@@ -89,18 +81,14 @@
             android:id="@+id/tv_dream_job"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tv_dream_job"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_profession" />
+            android:text="@string/tv_dream_job"/>
 
 
         <EditText
             android:id="@+id/et_dream_job"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/et_dream_job"
-            app:layout_constraintStart_toEndOf="@+id/tv_dream_job"
-            app:layout_constraintTop_toBottomOf="@id/tv_profession" />
+            android:hint="@string/et_dream_job" />
     </LinearLayout>
 
     <LinearLayout
@@ -112,18 +100,14 @@
             android:id="@+id/tv_favourite_food"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tv_favourite_food"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_dream_job" />
+            android:text="@string/tv_favourite_food"/>
 
 
         <EditText
             android:id="@+id/et_favourite_food"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/et_favourite_food"
-            app:layout_constraintStart_toEndOf="@+id/tv_favourite_food"
-            app:layout_constraintTop_toBottomOf="@id/tv_dream_job" />
+            android:hint="@string/et_favourite_food" />
     </LinearLayout>
 
 
@@ -134,10 +118,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/btn_submit"
-
         >
-
-
     </Button>
 
 </LinearLayout>
